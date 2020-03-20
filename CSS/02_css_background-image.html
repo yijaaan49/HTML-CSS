@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS 배경이미지</title>
+<style>
+    body {
+        background-image: url("imgs/frozen2_logo.jpg");
+    }
+    #repeat_img {
+        width: 700px; height: 400px;
+        background-color: darkgrey;
+        background-image: url("imgs/frozen2.jpg");
+    }
+    #no_repeat_img {
+        width: 500px; height: 500px;
+        border : 5px solid grey;
+        background-image: url("imgs/olaf.jpg");
+        background-repeat: no-repeat;
+        background-position:center
+    }
+</style>
+</head>
+<body>
+	<h1>CSS background-image</h1>
+    <div id="repeat_img">이미지 반복</div>
+    <div id="no_repeat_img">이미지 반복 없음</div>
+    
+</body>
+</html>
